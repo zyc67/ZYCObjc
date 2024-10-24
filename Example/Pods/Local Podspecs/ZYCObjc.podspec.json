@@ -1,0 +1,22 @@
+{
+  "name": "ZYCObjc",
+  "version": "0.1.0",
+  "summary": "podspec objc",
+  "description": "a project for podspec objc",
+  "homepage": "https://github.com/zyc67/ZYCObjc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zyc67": "chao790784459@126.com"
+  },
+  "source": {
+    "git": "https://github.com/zyc67/ZYCObjc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZYCObjc/Classes/**/*"
+}

@@ -7,6 +7,7 @@
 //
 
 #import "ZYCViewController.h"
+#import <ZYCObjc/ZYCOC.h>
 
 @interface ZYCViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    ZYCOC *o = [[ZYCOC alloc] init];
+    
+    [o instanceMethod];
+    
+    [ZYCOC classMethod];
 }
 
 - (void)didReceiveMemoryWarning

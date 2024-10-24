@@ -1,0 +1,6 @@
+framework module ZYCObjc {
+  umbrella header "ZYCObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}
